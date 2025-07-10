@@ -27,11 +27,13 @@ This project provides an intelligent web-based application that predicts annual 
 
 ## Requirements
 
-Make sure you have the following installed:
-
-- Python 3.9 or later
-- pip
-- Git LFS (for handling large model/data files)
+- Python 3.9+
+- Streamlit
+- Scikit-learn
+- Pandas
+- Plotly
+- NumPy
+- Git LFS (for handling large `.csv` and `.pkl` files)
 
 ---
 
@@ -42,5 +44,4 @@ git clone https://github.com/Aariz1706/Salary-Predictor.git
 cd Salary-Predictor
 
 To start the app locally, run:
-```bash
 streamlit run app/app.py
